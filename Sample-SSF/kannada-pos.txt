@@ -1,0 +1,19 @@
+<Sentence id="1">
+1	ರಾಜ್ಯಪತ್ರದ	N_NN	
+2	ಬಗೆಗಿನ	N_NN	
+3	ವಿವರಗಳು	N_NN	
+4	.	RD_PUNC	
+</Sentence>
+
+<Sentence id="2">
+1	ತಮಿಳುನಾಡು	N_NNP	
+2	ರಾಜ್ಯಪತ್ರವು	N_NN	
+3	ಸರ್ಕಾರ	N_NN	
+4	ಮತ್ತು	CC_CCD	
+5	ಜನರ	N_NN	
+6	ನಡುವೆ	N_NN	
+7	ಸೇತುವೆಯಾಗಿ	N_NN	
+8	ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ	V_VM_VF	
+9	.	RD_PUNC	
+</Sentence>
+
