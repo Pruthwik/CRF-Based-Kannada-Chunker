@@ -77,6 +77,12 @@ def read_feature_file_and_create_ssf_sentences(file_path, opr):
                     cntr = 1
                     subcntr = 1
                     sent_string = "<Sentence id='" + str(sent_count) + "'>\n"
+    print(sent_string)
+    if sent_string.strip() != "<Sentence id='" + str(sent_count) + "'>":
+        sent_string += '\t))\n</Sentence>\n'
+        sentences.append(sent_string)
+        print(sent_string)
+        sent_string = ''
     return sentences
 
 
@@ -115,7 +121,6 @@ def write_list_to_file(out_path, list_samples_string):
     '''
     with open(out_path, 'w', encoding='utf-8') as fout:
         fout.write('\n'.join(list_samples_string) + '\n')
-        # fout.close()
 
 
 def main():
